@@ -1,6 +1,6 @@
-# Master - Blaster
+# React - Flickr
 
-A web-app made with React JS to analyze Sachin Tendulkar's ODI career.
+A web-app made with React JS to search images using flickr api.
 
 ## Getting Started
 
