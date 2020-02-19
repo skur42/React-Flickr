@@ -1,0 +1,60 @@
+.photos {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  z-index: 0;
+  padding: 50px;
+}
+
+.photos .all_photos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+.photos .all_photos li {
+  list-style: none;
+}
+
+.photos .all_photos li img {
+  width: 100%;
+  cursor: pointer;
+  box-shadow: none;
+  transition: 0.15s;
+  position: relative;
+}
+
+.photos .all_photos li img:hover {
+  transform: scale(1.14);
+}
+
+.photos .loader-wrapper {
+  opacity: 0;
+  margin-top: 40px;
+  height: 0;
+  width: 100%;
+  position: relative;
+}
+
+.photos .loader-wrapper p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #888;
+  font-size: 20px;
+  padding: 10px 150px;
+}
+
+.nil-search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 18px 30px;
+  font-size: 22px;
+  text-align: center;
+  color: #666;
+}
